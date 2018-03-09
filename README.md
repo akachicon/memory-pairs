@@ -3,6 +3,8 @@
 ## Description
 Memory pairs is a client-side card game where a player needs to match pairs of cards. The rules is very simple - the player has five seconds to remember the cards, after which all cards turn over. Next, the player turns over one card and then try to find a matching card. If he succeeded, he gets score points and the cards remain in exposed state, if not, the cards flip backward and a certain amount of score points goes away. When all cards are in exposed state the game is ended.
 
+The game might be tried [here](https://memory-pairs.herokuapp.com/).
+
 ## Technical details
 The poject is a node http-server, all the game logic runs on the client. The game field and other game elements scales according to the viewport size (but there is always three rows and six columns). The text does not scale. All animations were created via CSS.
 
