@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="icon" href="resources/favicon.ico?v=1.0"/>
+
+    <title>Memory game</title>
+
+    <style type="text/css">
+        html, body{
+            height: 100%;
+        }
+        body {
+            margin:0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-screen-bg">
+        <div>Загрузка...</div>
+        <div class="load-bar-container">
+            <div class="load-bar" style="width: 0"></div>
+        </div>
+    </div>
+    <div class="game-container">
+        <div class="menu-screen start-screen">
+            <div class="menu-screen-image start-screen-image"></div>
+            <div class="menu-screen-title">MEMORY GAME</div>
+            <div class="menu-screen-button-container">
+                <button class="menu-screen-button">Начать игру</button>
+            </div>
+        </div>
+        <div class="action-screen hidden">
+            <div>
+                <div class="action-screen-header">
+                    <button>Начать заново</button>
+                    <div>Очки: <span class="score-field">0</span></div>
+                </div>
+                <div class="card-field-container">
+                    <div class="card-field">
+                        <div class="card-field-row"></div>
+                        <div class="card-field-row"></div>
+                        <div class="card-field-row"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-screen end-screen hidden">
+            <div class="menu-screen-image end-screen-image"></div>
+            <div class="menu-screen-title">Поздравляем!<br/>Ваш итоговый счет: <span class="score-field">0</span></div>
+            <div class="menu-screen-button-container">
+                <button class="menu-screen-button">Еще раз</button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script data-main="js/main.js" src="js/require.js"></script>
+</html>
