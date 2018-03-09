@@ -7,8 +7,17 @@
     "test": "node node_modules/karma/bin/karma start",
     "start": "node index"
   },
-  "author": "Dan Z.",
-  "license": "ISC",
+  "keywords": ["web", "html5", "game", "desktop", "mobile", "client-side", "client", "node", "heroku", "memory", "pairs", "cards", "karma", "karma-jasmine", "jasmine"],
+  "author": {
+    "name": "Dan Z.",
+    "email": "akachicon@gmail.com",
+    "url": "https://github.com/akachicon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akachicon/memory-pairs"
+  },
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "jasmine-core": "^3.1.0",
     "karma": "^2.0.0",
