@@ -203,6 +203,10 @@
     width: 40px;
 }
 
+.menu-screen-title > .score-field {
+    width: auto;
+}
+
 .loading-screen-bg {
     position: absolute;
     width: 100%;
